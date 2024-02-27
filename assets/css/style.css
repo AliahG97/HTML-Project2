@@ -1,0 +1,80 @@
+* {
+    font-family: FangSong;
+    background-color: lightcyan;
+}
+main.row  {
+    background-color: yellow;
+    min-height: 500px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    border-color: black;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+header h1 {
+    margin-right: 20px;
+}
+
+.logo {
+    display:inline-flex;
+    flex:1 1 auto;
+    max-width:15vw;
+    max-height:20vh;
+    min-width: 50px;
+    min-height: 50px;
+}
+.nav-links {
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color:black;
+    text-decoration:underline;
+    cursor:grab;
+    font-size: 30px;
+}
+
+.nav-links li:hover {
+    background-color:lightgray;
+    transition: all 1s;
+}
+.product-display {
+    order:-1;
+    padding:10px;
+    margin:10px;
+    display:flex;
+    box-sizing: border-box;
+    border-color: black;
+    border:2px solid black;
+    flex-direction: column;
+    height:93vh;
+    width:15vw;
+    margin-top:10px;
+}
+.container-container {
+    display:flex;
+    box-sizing: border-box;
+    border-color: black;
+    border:2px solid black;
+    padding:10px;
+    margin:10px;
+    height:60vh;
+    width: 70vw;
+}
